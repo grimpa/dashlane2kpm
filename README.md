@@ -1,7 +1,11 @@
-# dashlane2kpm
-Transforming a CSV of passwords exported from Dashlane to be imported into Kaspersky Password Manager.
+## Dashlane to Karspersky Password Manager
+Transforming a CSV of `passwords` exported from Dashlane to be imported into Kaspersky Password Manager.
 
-```npm install```
+## How to Use
+
+`$ npm install`
+
+`$ node .`
 
 __input.csv__: Dashlane exported csv file.  
-__output.csv__: KPM csv file to import.  
+__output.csv__: KPM csv file to import.
