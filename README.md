@@ -7,5 +7,5 @@ Transforming a CSV of `passwords` exported from Dashlane to be imported into Kas
 
 `$ node .`
 
-__input.csv__: Dashlane exported csv file.  
+__credentials.csv__: Dashlane exported csv file.  
 __output.csv__: KPM csv file to import.
