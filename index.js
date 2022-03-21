@@ -9,7 +9,7 @@ function writeCSVFile(data) {
 
   fs.writeFile(outputCsvFile, extractData(data), err => {
     if (err) console.log('An error occurred', err);
-    else console.log(`File saved as ${filename}`);
+    else console.log(`File saved as ${outputCsvFile}`);
   });
 }
   
